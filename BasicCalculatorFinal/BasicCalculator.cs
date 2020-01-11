@@ -7,13 +7,14 @@ using Divide;
 using Squareby;
 using Squareroots;
 using Cubic;
+using Helpers;
 
 namespace BasicCalculator
 {
     
     public class BasicCalculator : IAdd, ISubtract, IMultiplyby, IDivide, ISquareby, ISquareroots, ICubic
     {
-        public dynamic result;
+        
         //Object Intialization
         private readonly Add Sumobj = new Add();
 
@@ -23,6 +24,50 @@ namespace BasicCalculator
         Square sqrob = new Square();
         Squareroot sqrtob = new Squareroot();
         Subtraction subob = new Subtraction();
+        public double result;
+        
+        public dynamic Result
+        {
+            get
+            {
+                string type = result.GetType().ToString();
+                
+                
+               
+                    if (type == "System.Int32")
+
+                    {
+
+                        return result;
+
+                    }
+
+                    else
+
+                    {
+
+                        return Helpers.Rounding.RoundTwoDecimalPlaces(result);
+
+                        
+
+                    }
+            }
+            set
+
+            {
+
+                result = value; 
+
+            }
+
+
+
+        }
+
+
+       
+
+    
 
         //Addition
         public dynamic Sum(dynamic a, dynamic b)
@@ -30,9 +75,9 @@ namespace BasicCalculator
         {
 
             
-            result = Sumobj.Sum(a, b);
+            Result = Sumobj.Sum(a, b);
 
-            return result;
+            return Result;
 
         }
 
@@ -43,17 +88,17 @@ namespace BasicCalculator
 
         {
 
-            result = Division.Divide(a, b);
+            Result = Division.Divide(a, b);
 
-            return result;
+            return Result;
 
 
         }
         //Cube
         public double Cub(double a)
         {
-            result = Cube.Cub(a);
-            return result;
+            Result = Cube.Cub(a);
+            return Result;
         }
 
         //Multiplication
@@ -62,10 +107,10 @@ namespace BasicCalculator
 
         {
 
-            result = Multiplication.Multiply(a, b);
+            Result = Multiplication.Multiply(a, b);
 
 
-            return result;
+            return Result;
 
         }
         //Subtraction
@@ -73,19 +118,19 @@ namespace BasicCalculator
 
         {
 
-            result = Subtraction.Sub(a, b);
+            Result = Subtraction.Sub(a, b);
 
 
-            return result;
+            return Result;
 
         }
 
         //Square
         public double Sqr(double a)
         {
-            result = Square.Sqr(a);
+            Result = Square.Sqr(a);
 
-            return result;
+            return Result;
 
 
         }
@@ -94,8 +139,8 @@ namespace BasicCalculator
 
         public double Sq(double a)
         {
-            result = Squareroot.Sq(a);
-            return result;
+            Result = Squareroot.Sq(a);
+            return Result;
         }
 
 

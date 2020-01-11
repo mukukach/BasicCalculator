@@ -8,6 +8,7 @@
     <ProjectReference Include="..\Add\Add.csproj" />
     <ProjectReference Include="..\Cube\Cubic.csproj" />
     <ProjectReference Include="..\Divide\Divide.csproj" />
+    <ProjectReference Include="..\Helpers\Helpers.csproj" />
     <ProjectReference Include="..\Multiplyby\Multiplyby.csproj" />
     <ProjectReference Include="..\Operations\Operations.csproj" />
     <ProjectReference Include="..\Squareroot\Squareroots.csproj" />
