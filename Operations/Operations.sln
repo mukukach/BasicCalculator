@@ -3,41 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations.csproj", "{B413476B-EBF6-4CD5-9379-CE3465D90690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operations", "Operations.csproj", "{B413476B-EBF6-4CD5-9379-CE3465D90690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperationsTests", "..\OperationsTests\OperationsTests.csproj", "{ECC5540F-B0C8-40BF-9164-D41871D94D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperationsTests", "..\OperationsTests\OperationsTests.csproj", "{ECC5540F-B0C8-40BF-9164-D41871D94D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add", "..\Add\Add.csproj", "{343D682A-70C2-4AE4-8B8D-477F178D63DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add", "..\Add\Add.csproj", "{343D682A-70C2-4AE4-8B8D-477F178D63DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTests", "..\AddTests\AddTests.csproj", "{9125748C-95CB-4D77-BEF9-94D384190498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTests", "..\AddTests\AddTests.csproj", "{9125748C-95CB-4D77-BEF9-94D384190498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract", "..\Subtract\Subtract.csproj", "{69433802-4917-48A9-8B87-BD4F3C95BF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtract", "..\Subtract\Subtract.csproj", "{69433802-4917-48A9-8B87-BD4F3C95BF9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtractTests", "..\SubtractTests\SubtractTests.csproj", "{8B0B3F5A-FA7B-4D66-BF29-3AF19FFD8062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtractTests", "..\SubtractTests\SubtractTests.csproj", "{8B0B3F5A-FA7B-4D66-BF29-3AF19FFD8062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplyby", "..\Multiplyby\Multiplyby.csproj", "{B4465B46-BE80-44A1-8EB2-08BE84C8F08A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplyby", "..\Multiplyby\Multiplyby.csproj", "{B4465B46-BE80-44A1-8EB2-08BE84C8F08A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplybyTests", "..\MultiplybyTests\MultiplybyTests.csproj", "{6CBCE3D1-4AAA-43EB-A671-889D8A3D2664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplybyTests", "..\MultiplybyTests\MultiplybyTests.csproj", "{6CBCE3D1-4AAA-43EB-A671-889D8A3D2664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divide", "..\Divide\Divide.csproj", "{C8F9DB48-94D0-4C4D-83B9-702BE0DE9A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divide", "..\Divide\Divide.csproj", "{C8F9DB48-94D0-4C4D-83B9-702BE0DE9A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTests", "..\DivideTests\DivideTests.csproj", "{87D5E1B0-6A9E-42E3-B418-FAF7A53D158D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DivideTests", "..\DivideTests\DivideTests.csproj", "{87D5E1B0-6A9E-42E3-B418-FAF7A53D158D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squareby", "..\Square\Squareby.csproj", "{5F4314C0-407D-4A21-BA4B-FC93441FFCC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squareby", "..\Square\Squareby.csproj", "{5F4314C0-407D-4A21-BA4B-FC93441FFCC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquarebyTests", "..\SquarebyTests\SquarebyTests.csproj", "{11786F04-3BB0-45C7-A899-EFB76C142036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquarebyTests", "..\SquarebyTests\SquarebyTests.csproj", "{11786F04-3BB0-45C7-A899-EFB76C142036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squareroots", "..\Squareroot\Squareroots.csproj", "{CC60487B-4E47-4DBB-B5FA-BC1F47D2495C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squareroots", "..\Squareroot\Squareroots.csproj", "{CC60487B-4E47-4DBB-B5FA-BC1F47D2495C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquarerootsTests", "..\SquarerootsTests\SquarerootsTests.csproj", "{BF5E5926-FCD2-4FC3-BDCC-73BF158E436B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquarerootsTests", "..\SquarerootsTests\SquarerootsTests.csproj", "{BF5E5926-FCD2-4FC3-BDCC-73BF158E436B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubic", "..\Cube\Cubic.csproj", "{CC589085-2EC5-4E4D-A426-BC395C438509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cubic", "..\Cube\Cubic.csproj", "{CC589085-2EC5-4E4D-A426-BC395C438509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubicTests", "..\CubicTests\CubicTests.csproj", "{54ADEBC4-8E0A-4705-83D2-74EAC735F5CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubicTests", "..\CubicTests\CubicTests.csproj", "{54ADEBC4-8E0A-4705-83D2-74EAC735F5CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator", "..\ClassLibrary1\BasicCalculator.csproj", "{F6FA94EF-35BA-453A-A765-26AC5E94A0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculatorTests", "..\BasicCalculatorTests\BasicCalculatorTests.csproj", "{BD5A1952-9F03-4A09-BACD-97AC8D6E3CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculatorTests", "..\BasicCalculatorTests\BasicCalculatorTests.csproj", "{BD5A1952-9F03-4A09-BACD-97AC8D6E3CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticalCalculatorOperations", "..\StatisticalCalculatorOperations\StatisticalCalculatorOperations.csproj", "{9B374278-AE84-438C-A419-73A75CFBB7E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticalCalculatorOperationsTests", "..\StatisticalCalculatorOperationsTests\StatisticalCalculatorOperationsTests.csproj", "{C0810AE5-FFEA-4FD5-90E6-BC8A78386D05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculator", "..\BasicCalculatorFinal\BasicCalculator.csproj", "{41F52DB9-EE81-463B-BE0A-950C5DCAEEF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,14 +113,22 @@ Global
 		{54ADEBC4-8E0A-4705-83D2-74EAC735F5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54ADEBC4-8E0A-4705-83D2-74EAC735F5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54ADEBC4-8E0A-4705-83D2-74EAC735F5CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6FA94EF-35BA-453A-A765-26AC5E94A0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6FA94EF-35BA-453A-A765-26AC5E94A0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6FA94EF-35BA-453A-A765-26AC5E94A0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6FA94EF-35BA-453A-A765-26AC5E94A0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD5A1952-9F03-4A09-BACD-97AC8D6E3CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD5A1952-9F03-4A09-BACD-97AC8D6E3CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5A1952-9F03-4A09-BACD-97AC8D6E3CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5A1952-9F03-4A09-BACD-97AC8D6E3CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B374278-AE84-438C-A419-73A75CFBB7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B374278-AE84-438C-A419-73A75CFBB7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B374278-AE84-438C-A419-73A75CFBB7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B374278-AE84-438C-A419-73A75CFBB7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0810AE5-FFEA-4FD5-90E6-BC8A78386D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0810AE5-FFEA-4FD5-90E6-BC8A78386D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0810AE5-FFEA-4FD5-90E6-BC8A78386D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0810AE5-FFEA-4FD5-90E6-BC8A78386D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F52DB9-EE81-463B-BE0A-950C5DCAEEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F52DB9-EE81-463B-BE0A-950C5DCAEEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F52DB9-EE81-463B-BE0A-950C5DCAEEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F52DB9-EE81-463B-BE0A-950C5DCAEEF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
