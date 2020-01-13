@@ -8,7 +8,7 @@ namespace StatisticalCalculatorOperations
     public class Variance
     {
         
-        public static double [] Findvariance(double[] arrayA)
+        public static dynamic Findvariance(double[]arrayA)
         {
                 
            double mean = Mean.MeanValue(arrayA);

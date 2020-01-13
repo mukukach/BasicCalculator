@@ -13,7 +13,7 @@ namespace StatisticalCalculatorOperations
 
             double mean = Mean.MeanValue(values);
 
-            double standDev = Standard_Deviation.SD(values);
+            double standDev = StandardDeviation.SD(values);
 
             double zScore = Division.Divide(Subtraction.Sub(score, mean), standDev);
 
