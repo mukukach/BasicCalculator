@@ -7,25 +7,28 @@ namespace StatisticalCalculatorOperations
 {
     public class Variance
     {
+
         
-        public static dynamic Findvariance(double[]arrayA)
+        public static double Findvariance(double[] ArrayValues)
         {
-                
-           double mean = Mean.MeanValue(arrayA);
-            double[] squaredDeviation = new double[Helpers.Arraylength.ArrayLength(arrayA)];
 
-            int i = 0;
+            double meanvalue = Mean.MeanValue(ArrayValues);
 
-            foreach (int a in squaredDeviation)
+
+            double diff = 0;
+            double varvalue = 0;
+
+            foreach (int i in ArrayValues)
             {
-                squaredDeviation[i] = Square.Sqr(Subtraction.Sub(a,mean));
-
-                i++;
+                diff = Subtraction.Sub((int)meanvalue, i);
+                diff = Math.Pow(diff, 2);
+                varvalue = Addition.Sum(varvalue, (int)diff);
             }
 
-             return  Mean.MeanValue(squaredDeviation);
 
-            
+            int ValueCount = Helpers.Rounding.RoundTwoDecimalPlaces(ArrayValues);
+            varvalue = Division.Divide(varvalue, ValueCount);
+            return varvalue;
 
         }
 
