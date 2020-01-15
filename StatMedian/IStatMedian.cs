@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StatMedian
+namespace Statmedian
 {
    public interface IStatMedian
     {
-        public dynamic MeanValue(double[] ArrayValues);
+        public double FindMedian(double[] sourceNumbers);
     }
 }

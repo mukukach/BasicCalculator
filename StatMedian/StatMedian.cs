@@ -1,16 +1,16 @@
 ﻿using System;
 using StatisticalCalculatorOperations;
 
-namespace StatMedian
+namespace Statmedian
 {
     
     public class StatMedian : IStatMedian
     {
-        public double result;
+        
 
-        public dynamic MeanValue(double[] ArrayValues)
+        public double FindMedian(double[] sourceNumbers)
         {
-            return result = Mean.MeanValue(ArrayValues);
+            return Median.FindMedian(sourceNumbers);
         }
     }
 }
