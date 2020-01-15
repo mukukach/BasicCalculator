@@ -7,11 +7,12 @@ namespace StatisticalCalculatorOperations
 {
    public class StandardDeviation
     {
-        public static double SD(dynamic result)
+        
+        public static double SD(dynamic value)
         {
-            result = Variance.Findvariance(result);
+             return Squareroot.Sq(Variance.Findvariance(value));
 
-            return  Squareroot.Sq(result);
+           
             
         }
 
