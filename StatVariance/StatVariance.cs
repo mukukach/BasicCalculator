@@ -7,9 +7,9 @@ namespace StatVariance
     {
         public dynamic result;
 
-        public double Findvariance(double[] arrayA)
+        public double Findvariance(double[] ArrayValues)
         {
-            return result = Variance.Findvariance(arrayA);
+            return result = Variance.Findvariance(ArrayValues);
         }
     }
 }

@@ -6,6 +6,6 @@ namespace StatVariance
 {
   public  interface IStatVariance
     {
-        public double Findvariance(double[] arrayA);
+        public double Findvariance(double[] ArrayValues);
     }
 }
