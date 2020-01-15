@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StatMode
+namespace Statmode
 {
    public  interface IStatMode
     {
-        public double Findmode(int[] x);
+        public double Findmode(double[] x);
     }
 }

@@ -1,12 +1,12 @@
 ﻿using System;
 using StatisticalCalculatorOperations;
 
-namespace StatMode
+namespace Statmode
 {
     public class StatMode: IStatMode
     {
         public double result;
-        public double Findmode(int[] x)
+        public double Findmode(double[] x)
         {
             return result = Mode.Findmode(x);
         }
