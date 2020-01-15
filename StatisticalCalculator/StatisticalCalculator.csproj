@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Add\Add.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\BasicCalculator.csproj" />
+    <ProjectReference Include="..\Operations\Operations.csproj" />
+    <ProjectReference Include="..\StandardDeviation\StandardDev.cs.csproj" />
+    <ProjectReference Include="..\StatMean\StatMean.csproj" />
+    <ProjectReference Include="..\StatMedian\StatMedian.csproj" />
+    <ProjectReference Include="..\StatMode\StatMode.csproj" />
+    <ProjectReference Include="..\StatVariance\StatVariance.csproj" />
+    <ProjectReference Include="..\StatZscore\StatZscore.csproj" />
+  </ItemGroup>
+
+</Project>
