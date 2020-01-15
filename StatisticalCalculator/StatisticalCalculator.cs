@@ -50,7 +50,7 @@ namespace StatisticalCalculator
             return Result;
         }
 
-        public double Findmode(int [] arrayvalues)
+        public double Findmode(double [] arrayvalues)
         {
             Result = modeobj.Findmode(arrayvalues); 
             return Result;
