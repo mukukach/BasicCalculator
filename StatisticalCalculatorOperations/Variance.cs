@@ -26,7 +26,7 @@ namespace StatisticalCalculatorOperations
             }
 
 
-            int ValueCount = Helpers.Rounding.RoundTwoDecimalPlaces(ArrayValues);
+            int ValueCount = Helpers.Arraylength.ArrayLength(ArrayValues);
             varvalue = Division.Divide(varvalue, ValueCount);
             return varvalue;
 
