@@ -7,13 +7,14 @@ using System.Text;
 namespace StatisticalCalculatorOperations.Tests
 {
     [TestClass()]
-    public class MeanTests
+    public class ZscoreTests
     {
-        private readonly double[] ArrayValues = { 1, 2, 3, 4,5,6 };
+        private readonly double[] values = { 1, 2, 3, 4,5,6};
+        private readonly dynamic score = 1100;
         [TestMethod()]
-        public void MeanValueTest()
+        public void ZScoreTest()
         {
-            Assert.AreEqual(3.5, Mean.MeanValue(ArrayValues));
+            Assert.AreEqual(616.01, Zscore.ZScore(score,values));
         }
     }
 }

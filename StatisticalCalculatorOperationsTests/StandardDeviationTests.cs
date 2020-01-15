@@ -7,13 +7,14 @@ using System.Text;
 namespace StatisticalCalculatorOperations.Tests
 {
     [TestClass()]
-    public class MeanTests
+    public class StandardDeviationTests
     {
-        private readonly double[] ArrayValues = { 1, 2, 3, 4,5,6 };
+        private readonly double [] Arraya = { 1, 2, 3, 4, 5, 6 };
         [TestMethod()]
-        public void MeanValueTest()
+        public void SDTest()
         {
-            Assert.AreEqual(3.5, Mean.MeanValue(ArrayValues));
+            Assert.AreEqual(1.78, StandardDeviation.SD(Arraya));
         }
+
     }
 }
