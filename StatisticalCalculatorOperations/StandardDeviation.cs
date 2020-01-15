@@ -8,11 +8,11 @@ namespace StatisticalCalculatorOperations
    public class StandardDeviation
     {
         
-        public static double SD(dynamic value)
+        public static double SD(double[] ArrayValues)
         {
-             return Squareroot.Sq(Variance.Findvariance(value));
+           double result = Squareroot.Sq(Variance.Findvariance(ArrayValues));
 
-           
+            return Helpers.Rounding.RoundTwoDecimalPlaces(result);
             
         }
 
